@@ -10,6 +10,7 @@
 } */
 
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
@@ -35,6 +36,64 @@ hr{
     margin-bottom: 27px;
 
 }
+
+ /* navbar styles */
+
+ .navbar{
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     height: 90px;
+     background: #562EFF;
+ }
+
+ .nav-items{
+     width: 920px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .logo{
+     display: flex;
+     align-items: center;
+ }
+
+ .logo span{
+     font-size: 24px;
+     color: #ffffff;
+     margin-left: 15px;
+ }
+
+
+ .logo img{
+    width: 40.42px;
+    height: 51px;
+
+ }
+
+ .nav-btn ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-btn ul li{
+    list-style: none;
+    margin: 36px;
+}
+
+.nav-btn ul li a{
+    text-decoration: none;
+    color: #ffffff;
+ }
+
+
+ .nav-btn img{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+ }
+
 
 /* Top Players styles  */
 .top-players{
